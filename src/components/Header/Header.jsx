@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
-        <div>
-            <h2 className="text-3xl">This is Header</h2>
+        <div className="flex justify-around mb-8">
+            <Link to={'/'}>Home</Link>
+            <Link to={'/login'}>Login</Link>
         </div>
     );
 };
